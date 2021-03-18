@@ -1,0 +1,23 @@
+.fullscreen {
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.overlay input {
+  width: 100%;
+  opacity: 0.0;
+}
+
+.overlay input:hover {
+  opacity: 0.1;
+}
+
+.overlay input:focus {
+  opacity: 1;
+}
