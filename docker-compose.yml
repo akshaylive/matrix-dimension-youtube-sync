@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  matrix-dimension-youtube-sync:
+    build: .
+    ports:
+      - "7070:7070"

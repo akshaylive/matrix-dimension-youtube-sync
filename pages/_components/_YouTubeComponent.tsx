@@ -6,8 +6,8 @@ import styles from '../../styles/Home.module.css';
 import PlayerStates from "youtube-player/dist/constants/PlayerStates";
 import { Socket } from "socket.io-client/build/socket";
 
-const ALLOWED_SKEW_IN_SECONDS = 3;
-const SYNC_INTERVAL_IN_MILLISECONDS = 5000;
+const ALLOWED_SKEW_IN_SECONDS = parseInt(process.env.ALLOWED_SKEW_IN_SECONDS);
+const SYNC_INTERVAL_IN_MILLISECONDS = parseInt(process.env.SYNC_INTERVAL_IN_MILLISECONDS);
 
 function extractVideoId(url: string) {
     try {

@@ -2,9 +2,10 @@
   "name": "matrix-dimension-youtube-sync",
   "main": "build/app/index.js",
   "version": "0.1.0",
+  "license": "AGPL-3.0",
   "scripts": {
-    "dev": "next dev -p 7070",
     "build": "next build",
+    "dev": "next dev -p 7070",
     "start": "next start -p 7070",
     "lint": "tslint --project ./tsconfig.json -t stylish"
   },

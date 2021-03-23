@@ -8,6 +8,7 @@ Watch videos together without having to synchronize! Let this widget do it for y
 1. `yarn dev`: Starts the development server. This comes with file watcher. Any server changes would need a manual restart.
 1. `yarn build`: Builds the production server.
 1. `yarn start`: Starts the production server.
+1. `sudo docker build . -t matrix-dimension-youtube-sync` build docker image
 
 # How to use?
 
@@ -28,8 +29,6 @@ Watch videos together without having to synchronize! Let this widget do it for y
 
 # TODO
 
-1. Allow ability to configure the server via env variables
-1. ... and Docker-ize this
 1. NextJS was used to quickly bootstrap this project. The benefits of using NextJS is not really required. 
    It's easier to manage this project using only React, Express and Socketio. Please refactor.
    TBH even React is not required but could come in handy if moderation is introduced.
